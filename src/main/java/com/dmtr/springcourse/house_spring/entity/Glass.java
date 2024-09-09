@@ -9,6 +9,7 @@ public class Glass {
     @Value("My spring boot glass")
     private String glassName;
     public Glass() {
+        System.out.println("my GLASS");
         this.glassName = glassName;
     }
     public String getGlassName() {

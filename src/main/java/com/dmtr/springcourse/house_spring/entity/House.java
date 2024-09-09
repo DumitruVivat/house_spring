@@ -9,6 +9,7 @@ public class House {
     private Window window;
     @Autowired
     public House(Window window) {
+        System.out.println("my HOUSE");
         this.window = window;
     }
     public Window getWindow() {
